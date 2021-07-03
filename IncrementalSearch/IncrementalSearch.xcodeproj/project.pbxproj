@@ -13,6 +13,7 @@
 		F1D4C687268F3CB800EE2A10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D4C685268F3CB800EE2A10 /* Main.storyboard */; };
 		F1D4C689268F3CB900EE2A10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D4C688268F3CB900EE2A10 /* Assets.xcassets */; };
 		F1D4C68C268F3CB900EE2A10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D4C68A268F3CB900EE2A10 /* LaunchScreen.storyboard */; };
+		F1D4C694268F530800EE2A10 /* RepositoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D4C693268F530800EE2A10 /* RepositoryViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F1D4C688268F3CB900EE2A10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1D4C68B268F3CB900EE2A10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1D4C68D268F3CB900EE2A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D4C693268F530800EE2A10 /* RepositoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				F1D4C67F268F3CB800EE2A10 /* AppDelegate.swift */,
 				F1D4C681268F3CB800EE2A10 /* SceneDelegate.swift */,
+				F1D4C693268F530800EE2A10 /* RepositoryViewModel.swift */,
 				F1D4C683268F3CB800EE2A10 /* SearchViewController.swift */,
 				F1D4C685268F3CB800EE2A10 /* Main.storyboard */,
 				F1D4C688268F3CB900EE2A10 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D4C694268F530800EE2A10 /* RepositoryViewModel.swift in Sources */,
 				F1D4C684268F3CB800EE2A10 /* SearchViewController.swift in Sources */,
 				F1D4C680268F3CB800EE2A10 /* AppDelegate.swift in Sources */,
 				F1D4C682268F3CB800EE2A10 /* SceneDelegate.swift in Sources */,
